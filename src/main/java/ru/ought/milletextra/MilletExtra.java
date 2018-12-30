@@ -19,6 +19,10 @@ public class MilletExtra {
         return MODID + "_" + name;
     }
 
+    public static String makeTextureName(String name) {
+        return MODID + ":" + name;
+    }
+
     public static Item key;
 
     @EventHandler
@@ -30,6 +34,6 @@ public class MilletExtra {
     @EventHandler
     public void init(FMLInitializationEvent event) {
         // some example code
-        System.out.println("DIRT BLOCK >> " + Blocks.dirt.getUnlocalizedName());
+        System.out.println("MILLETEXTRA " + makeTextureName("key"));
     }
 }

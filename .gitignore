@@ -73,6 +73,7 @@ local.properties
 classes/
 
 /out/
+run/
 gradle/wrapper/gradle-wrapper.properties
 gradlew
 gradlew.bat
