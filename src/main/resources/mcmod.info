@@ -1,0 +1,16 @@
+[
+{
+  "modid": "milletextra",
+  "name": "Millet Extra",
+  "description": "Example mod, with extra millet!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["StragaSevera"],
+  "credits": "The Forge and FML guys, for being awesome",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
